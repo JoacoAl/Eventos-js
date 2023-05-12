@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Eventos</title>
+  </head>
+  <body>
+    <main>
+      <h3>Calculo de IMC</h3>
+      <form action="" id="form-body">
+        <h4>Estatura</h4>
+        <label for="estatura">en centimetros:</label>
+        <input
+          type="text"
+          name="estatura"
+          id="input-altura"
+          placeholder="175"
+        />
+        <h4>Peso</h4>
+        <label for="peso">en kilogramos:</label>
+        <input type="text" name="peso" id="input-peso" placeholder="70" />
+
+        <input type="submit" value="Calcular" class="sumbit" />
+        <h4>Resultado</h4>
+        <input type="text" name="masa" id="input-masa" />
+      </form>
+
+      <!-- EJERCICIO 2 -->
+      <h2>-----------------</h2>
+
+      <form action="" id="form-divisa">
+        <h3>Conversor de divisas</h3>
+        <label for="peso">Moneda</label>
+        <input
+          type="text"
+          name="pesoarg"
+          id="pesoarg"
+          placeholder="Peso Argentino"
+        />
+        <input type="text" name="dolar" id="dolar" placeholder="Dolar" />
+
+        <input type="submit" value="Calcular" id="input-sumbit" />
+      </form>
+      <p id="resultado"></p>
+      <!-- EJERCICIO 3 -->
+      <h2>-----------------</h2>
+      <a href="./notas.html">Notas app</a>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
